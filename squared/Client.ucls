@@ -1,0 +1,200 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<class-diagram version="1.2.2" icons="true" automaticImage="JPEG" always-add-relationships="false" 
+  generalizations="true" realizations="true" associations="true" dependencies="false" nesting-relationships="true" 
+  router="FAN">  
+  <class id="1" language="java" name="squared_package.PanelGame" project="squared" 
+    file="/squared/src/squared_package/PanelGame.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="1059" width="226" x="474" y="-663"/>    
+    <display autosize="false" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="2" language="java" name="squared_package.GameClient" project="squared" 
+    file="/squared/src/squared_package/GameClient.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="97" y="-269"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="3" language="java" name="squared_package.Cella" project="squared" 
+    file="/squared/src/squared_package/Cella.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="870" y="-616"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="4" language="java" name="squared_package.Segmento" project="squared" 
+    file="/squared/src/squared_package/Segmento.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="294" y="-650"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <association id="5">    
+    <end type="SOURCE" refId="1" navigable="false">      
+      <attribute id="6" name="listaSegmenti">        
+        <position height="0" width="0" x="-76" y="-8"/>      
+      </attribute>      
+      <multiplicity id="7" minimum="0" maximum="2147483647">        
+        <position height="16" width="21" x="402" y="-609"/>      
+      </multiplicity>    
+    </end>    
+    <end type="TARGET" refId="4" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="8">    
+    <bendpoint x="642" y="-692"/>    
+    <bendpoint x="506" y="-688"/>    
+    <end type="SOURCE" refId="3" navigable="false">      
+      <attribute id="9" name="lato4">        
+        <position height="18" width="33" x="393" y="-675"/>      
+      </attribute>      
+      <multiplicity id="10" minimum="0" maximum="1">        
+        <position height="16" width="23" x="429" y="-674"/>      
+      </multiplicity>    
+    </end>    
+    <end type="TARGET" refId="4" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="11">    
+    <bendpoint x="412" y="-88"/>    
+    <end type="SOURCE" refId="2" navigable="false">      
+      <attribute id="12" name="panelGame">        
+        <position height="18" width="64" x="404" y="-132"/>      
+      </attribute>      
+      <multiplicity id="13" minimum="0" maximum="1">        
+        <position height="16" width="23" x="423" y="-113"/>      
+      </multiplicity>    
+    </end>    
+    <end type="TARGET" refId="1" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="14">    
+    <end type="SOURCE" refId="2" navigable="false">      
+      <attribute id="15" name="nuovo">        
+        <position height="0" width="0" x="-76" y="-8"/>      
+      </attribute>      
+      <multiplicity id="16" minimum="0" maximum="1">        
+        <position height="16" width="23" x="298" y="-480"/>      
+      </multiplicity>    
+    </end>    
+    <end type="TARGET" refId="4" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="17">    
+    <end type="SOURCE" refId="1" navigable="false">      
+      <attribute id="18" name="listaPuntiChiave">        
+        <position height="18" width="83" x="771" y="-456"/>      
+      </attribute>      
+      <multiplicity id="19" minimum="0" maximum="2147483647">        
+        <position height="16" width="21" x="782" y="-437"/>      
+      </multiplicity>    
+    </end>    
+    <end type="TARGET" refId="3" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="20">    
+    <bendpoint x="721" y="-757"/>    
+    <bendpoint x="599" y="-750"/>    
+    <bendpoint x="519" y="-741"/>    
+    <bendpoint x="482" y="-737"/>    
+    <bendpoint x="419" y="-723"/>    
+    <bendpoint x="390" y="-719"/>    
+    <end type="SOURCE" refId="3" navigable="false">      
+      <attribute id="21" name="lato2">        
+        <position height="18" width="33" x="395" y="-743"/>      
+      </attribute>      
+      <multiplicity id="22" minimum="0" maximum="1">        
+        <position height="16" width="23" x="435" y="-746"/>      
+      </multiplicity>    
+    </end>    
+    <end type="TARGET" refId="4" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="23">    
+    <bendpoint x="278" y="-301"/>    
+    <end type="SOURCE" refId="1" navigable="false">      
+      <attribute id="24" name="nuovoSegmento">        
+        <position height="18" width="86" x="294" y="-497"/>      
+      </attribute>      
+      <multiplicity id="25" minimum="0" maximum="1">        
+        <position height="16" width="23" x="214" y="-473"/>      
+      </multiplicity>    
+    </end>    
+    <end type="TARGET" refId="4" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="26">    
+    <bendpoint x="828" y="-775"/>    
+    <bendpoint x="696" y="-789"/>    
+    <bendpoint x="500" y="-777"/>    
+    <bendpoint x="466" y="-774"/>    
+    <bendpoint x="411" y="-787"/>    
+    <bendpoint x="386" y="-778"/>    
+    <end type="SOURCE" refId="3" navigable="false">      
+      <attribute id="27" name="lato3">        
+        <position height="18" width="33" x="392" y="-708"/>      
+      </attribute>      
+      <multiplicity id="28" minimum="0" maximum="1">        
+        <position height="16" width="23" x="427" y="-780"/>      
+      </multiplicity>    
+    </end>    
+    <end type="TARGET" refId="4" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="29">    
+    <bendpoint x="670" y="-726"/>    
+    <bendpoint x="552" y="-710"/>    
+    <bendpoint x="429" y="-693"/>    
+    <end type="SOURCE" refId="3" navigable="false">      
+      <attribute id="30" name="lato1">        
+        <position height="18" width="33" x="393" y="-781"/>      
+      </attribute>      
+      <multiplicity id="31" minimum="0" maximum="1">        
+        <position height="16" width="23" x="426" y="-713"/>      
+      </multiplicity>    
+    </end>    
+    <end type="TARGET" refId="4" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="32">    
+    <bendpoint x="376" y="-32"/>    
+    <end type="SOURCE" refId="1" navigable="false">      
+      <attribute id="33" name="client">        
+        <position height="18" width="33" x="187" y="-167"/>      
+      </attribute>      
+      <multiplicity id="34" minimum="0" maximum="1">        
+        <position height="16" width="23" x="191" y="-153"/>      
+      </multiplicity>    
+    </end>    
+    <end type="TARGET" refId="2" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="35">    
+    <bendpoint x="456" y="-567"/>    
+    <end type="SOURCE" refId="1" navigable="false">      
+      <attribute id="36" name="stackSegmenti">        
+        <position height="0" width="0" x="-76" y="-8"/>      
+      </attribute>      
+      <multiplicity id="37" minimum="0" maximum="2147483647">        
+        <position height="16" width="21" x="405" y="-535"/>      
+      </multiplicity>    
+    </end>    
+    <end type="TARGET" refId="4" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <classifier-display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+    sort-features="false" accessors="true" visibility="true">    
+    <attributes public="true" package="true" protected="true" private="true" static="true"/>    
+    <operations public="true" package="true" protected="true" private="true" static="true"/>  
+  </classifier-display>  
+  <association-display labels="true" multiplicity="true"/>
+</class-diagram>

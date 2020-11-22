@@ -1,0 +1,8 @@
+WARNING - 17:23:59: First conversion pass
+ERROR - 17:23:59: java.net.MalformedURLException: unknown protocol: pathmap
+WARNING - 17:24:55: Convert squared_package
+WARNING - 17:24:55: First conversion pass
+ERROR - 17:24:55: java.net.MalformedURLException: unknown protocol: pathmap
+WARNING - 17:25:45: First conversion pass
+ERROR - 17:25:45: org.xml.sax.SAXParseExceptionpublicId: /squared/src/squared_package/Cella.java; systemId: file:///squared/src/squared_package/Cella.java; lineNumber: 1; columnNumber: 1; Il contenuto non è consentito nel prologo.
+ERROR - 17:25:45: org.xml.sax.SAXParseExceptionpublicId: /squared/src/squared_package/Cella.java; systemId: file:///squared/src/squared_package/Cella.java; lineNumber: 1; columnNumber: 1; Il contenuto non è consentito nel prologo.
