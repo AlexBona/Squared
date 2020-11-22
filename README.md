@@ -1,11 +1,11 @@
 # Squared
-<h1>RULES</h1>
 
-<h2>What is Squared?</h2>
-<p>Squared is an easy one versus one game.</p>
+<h4>This is my first "advanced Java programming" project. I made it for
+an exam during the second year at University. I obtained the maximum mark.</h4>
 
-<h2>How can I score points?</h2>
-<p>A point is scored when someone closes a square.<p>
+<h4>When I built it, I had no knowledge about patterns such as MVC for example. 
+In fact the code is bad-structured and views and logic are mixed in same classes.
+However the game works!</h4>
 
-<h2>Who wins?</h2>
-<p>The player who scores more points wins.</p>
+<h4>I keep this project free to the public, hoping it could help novice developers to find
+easy solutions to build up a multithread application.</h4>
